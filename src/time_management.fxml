@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="your.package.name.Controller" spacing="10" alignment="CENTER">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <TextField fx:id="employeeIdField" promptText="Enter Employee ID" maxWidth="200"/>
+    <HBox spacing="10">
+        <Button text="Clock In" fx:id="clockInButton" onAction="#handleClockIn" prefWidth="100"/>
+        <Button text="Clock Out" fx:id="clockOutButton" onAction="#handleClockOut" prefWidth="100"/>
+    </HBox>
+</VBox>
