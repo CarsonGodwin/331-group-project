@@ -1,3 +1,6 @@
+//Carson Godwin
+//Time Management App
+//Employee.java
 public class Employee {
     private String id;
     private String name;
